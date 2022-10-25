@@ -611,13 +611,14 @@ footer {
   }
 
   .menu.active {
+    padding: 20px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    left: 50%;
+    left: 0;
     top: 0;
     height: 100vh;
-    width: 50vw;
+    width: 100vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -632,6 +633,7 @@ footer {
     z-index: 22;
     -webkit-animation: fade 0.3s linear;
             animation: fade 0.3s linear;
+    overflow-y: auto;
   }
 
   .burger {
